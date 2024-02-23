@@ -1,22 +1,58 @@
+body {
+  background-color: #222222;
+}
 .Parent {
-  border: 2px solid #212121;
-  height: 400px;
+  box-shadow: 0px 0px 20px 10px rgb(237, 240, 236);
+  border-radius: 20px;
+  height: 420px;
   width: 400px;
   margin-top: 150px;
   margin-left: 525px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: radial-gradient(
+    circle at 52.1% -29.6%,
+    rgb(144, 17, 105) 0%,
+    rgb(51, 0, 131) 100.2%
+  );
 }
 h1 {
   font-size: 50px;
+  font-family: Tilt Prism;
+  color: antiquewhite;
 }
 label {
-  font-size: 30px;
+  font-size: 25px;
+  color: aliceblue;
+  font-family: Kode Mono;
 }
 input {
   height: 20px;
   width: 150px;
+  border-radius: 5px;
+  margin: 10px;
 }
 button {
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  font-size: larger;
+  background-color: seashell;
+  font-family: "Exo 2";
+  font-weight: 700;
+}
+button:hover {
+  height: 60px;
+  width: 180px;
+  transition: 800ms ease-in-out;
+  margin-left: 85px;
+  margin-top: 20px;
+  color: aliceblue;
+  background-color: #222222;
+}
+#lmail {
+  margin-left: 44px;
 }
