@@ -48,7 +48,7 @@ export default function Form() {
         />
         <br />
         <label htmlFor="mail" id="lmail">
-          Email :{" "}
+          Email :
         </label>
         <input
           type="email"
