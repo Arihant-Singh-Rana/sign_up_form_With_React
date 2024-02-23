@@ -57,7 +57,7 @@ export default function Form() {
           value={data.mail}
           onChange={(e) => setData({ ...data, mail: e.target.value })}
           style={{ width: "150px" }}
-        />
+        /> 
         <br />
         <button>Login/SignUp</button>
       </form>
